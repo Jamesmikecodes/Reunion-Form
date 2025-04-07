@@ -16,12 +16,12 @@ The **Reunion Form** allows users to confirm their attendance, provide contact d
 
 ## 🚀 Live Demo
 
-[Click here to view live](https://your-live-link.com)  
+[Click here to view live](https://jamesmikecodes.github.io/Reunion-Form/)  
 _(Replace with your actual GitHub Pages or Netlify link)_
 
 ## 📸 Screenshot
 
-![Reunion Form Screenshot](./path-to-screenshot.jpg)
+![Reunion Form Screenshot](./Assignment%20001.JPG)
 
 ## 💻 Built With
 
