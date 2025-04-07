@@ -1,0 +1,34 @@
+/* Style for the required asterisk */
+.required {
+  color: red;
+  margin-left: 5px; /* Small spacing between text and asterisk */
+}
+
+/* Container for the name input fields */
+.name-container {
+  display: flex;
+  gap: 10px; /* Spacing between the two input boxes */
+  margin-bottom: 5px; /* Space between the input boxes and the labels below */
+}
+
+/* Style for the input boxes */
+input[type="text"] {
+  width: 100%; /* Make the input boxes full width within their container */
+  padding: 10px; /* Padding inside the input box */
+  border: 1px solid #ccc; /* Border around the input */
+  border-radius: 4px; /* Rounded corners for the input */
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+/* Labels under the input boxes */
+.name-labels {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-labels label {
+  font-size: 14px;
+  margin-top: 5px; /* Space above the labels */
+  text-align: center;
+  flex: 1; /* Ensure labels align properly under each input */
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First and Last Name Input</title>
+    <link rel="stylesheet" href="test.css" />
+  </head>
+  <body>
+    <form action="#">
+      <!-- Name Label -->
+      <label for="first-name">Name<span class="required">*</span></label
+      ><br />
+
+      <!-- Input boxes for First and Last Names -->
+      <div class="name-container">
+        <input
+          type="text"
+          id="first-name"
+          name="first-name"
+          placeholder="First"
+          required
+        />
+        <input
+          type="text"
+          id="last-name"
+          name="last-name"
+          placeholder="Last"
+          required
+        />
+      </div>
+
+      <!-- Labels below the input boxes -->
+      <div class="name-labels">
+        <label for="first-name">First</label>
+        <label for="last-name">Last</label>
+      </div>
+      <br />
+
+      <!-- Submit Button -->
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

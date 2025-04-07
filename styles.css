@@ -1,0 +1,142 @@
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #3a3a3a;
+  color: #ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #69616e;
+  margin: 16px 0;
+}
+
+.form-container {
+  background-color: #433f4e;
+  padding: 20px;
+  border-radius: 10px;
+  width: 600px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.description {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 300;
+}
+
+p {
+  font-size: 0.85rem;
+  margin-bottom: 8px;
+}
+
+.radio-group {
+  margin: 0;
+}
+
+.details {
+  color: #ffb068;
+  font-size: 0.75rem;
+  margin-bottom: 0;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.required {
+  color: red;
+}
+
+label {
+  font-size: 0.65rem;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600;
+  margin-top: 0;
+}
+
+table td:nth-child(odd) {
+  text-align: right;
+  padding: 10px 10px 10px 0;
+}
+
+table td:nth-child(even) {
+  text-align: left;
+  padding: 10px 0 10px 10px;
+}
+
+input[type="submit"] {
+  background-color: #616161;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #757575;
+}
+
+.submit {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 8px;
+}
+
+button {
+  color: #ffff;
+  background-color: transparent;
+  border: 1px solid #69616e;
+  padding: 4px 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #69616e;
+}
+
+.name-container div {
+  display: inline-block;
+}
+
+.name-container div:nth-child(1)::before {
+  content: "First";
+  font-size: 10px;
+  position: absolute;
+  bottom: 46%;
+}
+
+.name-container div:nth-child(2)::before {
+  content: "Last";
+  font-size: 10px;
+  position: absolute;
+  bottom: 46%;
+}
+
+tr:last-child td:nth-child(1) {
+  vertical-align: top;
+}
+
+.width-100 {
+  width: 100%;
+}

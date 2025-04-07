@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reunion Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h1>Reunion Form</h1>
+      <p class="description">
+        Time to rekindle some good ol' memories! See you soo!
+      </p>
+
+      <hr />
+      <p class="details">
+        Date: <strong>01-05-2027</strong> | Time: <strong>6pm onwards</strong> |
+        Address: <strong>Our garage</strong>
+      </p>
+
+      <form action="#">
+        <table>
+          <!-- Would you like to join us? -->
+          <tr class="left-align">
+            <td>
+              <label for="join"
+                >Would you like to join us?<span class="required"
+                  >*</span
+                ></label
+              >
+            </td>
+            <td>
+              <span class="yes-no">
+                <input type="radio" id="yes" name="join" value="yes" required />
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="join" value="no" required />
+                <label for="no">No</label><br />
+              </span>
+            </td>
+          </tr>
+
+          <!-- Name -->
+          <tr>
+            <td>
+              <label for="first-name"
+                >Name<span class="required">*</span></label
+              >
+            </td>
+            <td>
+              <span class="name-container">
+                <div>
+                  <input
+                    type="text"
+                    id="first-name"
+                    name="first-name"
+                    required
+                  />
+                </div>
+                <div>
+                  <input type="text" id="last-name" name="last-name" required />
+                </div>
+              </span>
+            </td>
+          </tr>
+          <br />
+
+          <!-- Phone -->
+          <tr>
+            <td>
+              <label for="phone">Phone<span class="required">*</span></label>
+            </td>
+            <td>
+              <input
+                class="width-100"
+                type="tel"
+                id="phone"
+                name="phone"
+                required
+              />
+            </td>
+          </tr>
+
+          <!-- Meal Preferences -->
+          <tr>
+            <td>
+              <label for="meal"
+                >Your Meal Preference<span class="required">*</span></label
+              >
+            </td>
+            <td>
+              <span class="radio-group">
+                <input
+                  type="radio"
+                  id="vegetarian"
+                  name="meal"
+                  value="vegetarian"
+                  required
+                />
+                <label for="vegetarian">Vegetarian</label>
+                <input
+                  type="radio"
+                  id="non-vegetarian"
+                  name="meal"
+                  value="non-vegetarian"
+                  required
+                />
+                <label for="non-vegetarian">Non-Vegetarian</label>
+              </span>
+            </td>
+          </tr>
+
+          <!-- Game Preferences -->
+          <tr>
+            <td>
+              <label for="games"
+                >What kind of games are you interested in?</label
+              >
+            </td>
+            <td>
+              <span class="checkbox-group">
+                <input
+                  type="checkbox"
+                  id="indoor"
+                  name="games"
+                  value="indoor"
+                />
+                <label for="indoor">Indoor</label>
+                <input type="checkbox" id="board" name="games" value="board" />
+                <label for="board">Board</label>
+                <input
+                  type="checkbox"
+                  id="ball-game"
+                  name="games"
+                  value="ball-game"
+                />
+                <label for="ball-game">Ball games</label>
+                <input
+                  type="checkbox"
+                  id="outdoor"
+                  name="games"
+                  value="outdoor"
+                />
+                <label for="outdoor">Outdoor</label>
+              </span>
+            </td>
+          </tr>
+
+          <!-- Questions -->
+          <tr>
+            <td>
+              <label for="questions">Do you have any questions?</label>
+            </td>
+            <td>
+              <textarea
+                class="width-100"
+                name="questions?"
+                id="questions?"
+                rows="4"
+              ></textarea>
+            </td>
+          </tr>
+
+          <!-- Submit Button -->
+        </table>
+        <div class="submit">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
